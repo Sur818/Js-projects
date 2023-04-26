@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.equation {
+    display: flex;
+    font-size: 30px;
+}
+
+
+.equation div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.equation div input {
+    border: none;
+    background-color: rgb(208, 208, 208);
+    font-size: 25px;
+    width: 100px;
+    margin: 0px 10px;
+    border-radius: 7px;
+    padding: 5px 10px;
+    text-align: center;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: all 200ms linear;
+}
+
+.equation div input:focus{
+    box-shadow: rgba(2, 34, 71, 0.3) 0px 0px 0px 3px;
+}
+
+.controls{
+    margin-top: 50px;
+}
+
+.solve-btn{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    transition:  all 200ms linear;
+}
+
+.solve-btn:hover{
+    background-color: rgb(247, 104, 52);
+}
+
+.output-solution{
+    margin-top: 50px;
+    font-size: 25px;
+}

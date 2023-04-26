@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section,
+.output-section {
+  width: 100%;
+  overflow: auto;
+  padding: 7px;
+  display: flex;
+  margin: 30px 0;
+}
+
+.output-section {
+  flex-direction: column;
+}
+
+.step-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.data-box {
+  font-size: 31px;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  min-width: 70px;
+  text-align: center;
+}
+
+.red-box {
+  background-color: coral;
+}
+
+.green-box {
+  background-color: rgb(68, 195, 153);
+}
+
+.blue-box {
+  background-color: rgb(105, 145, 238);
+}
+
+.control-section {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.input-cnt {
+  display: flex;
+}
+
+.input-cnt input {
+  outline: none;
+  border: none;
+  width: 150px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  transition: all 150ms linear;
+}
+
+.input-cnt input:focus {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.btn-cnt {
+  display: flex;
+}
+
+.btn-cnt button {
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: all 200ms linear;
+}
+
+.add-btn {
+  background-color: rgb(44, 231, 44);
+}
+
+.add-btn:hover {
+  background-color: rgb(82, 247, 82);
+}
+
+.sort-btn {
+  background-color: rgb(50, 145, 183);
+}
+
+.sort-btn:hover {
+  background-color: rgb(70, 184, 229);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.874);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(143, 143, 143, 0.74);
+}

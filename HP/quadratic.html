@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quadractic.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main >
+        <section class="equation">
+            <div>
+                <input type="number" class="input-box"> x <sup>2</sup> +
+            </div>
+            <div>
+                <input type="number" class="input-box"> x
+            </div>
+            <div>
+                <input type="number" class="input-box"> = 0
+            </div>
+        </section>
+ 
+
+        <section class="controls">
+            <div class="btn-cnt">
+                <button class="solve-btn"  onclick="solveEquation()">Solve</button>
+            </div>
+        </section>
+
+        <section class="output-solution" id="output-solution">
+
+        </section>
+
+    </main>
+
+    <script src="./quadratic.js"></script>
+</body>
+
+</html>
